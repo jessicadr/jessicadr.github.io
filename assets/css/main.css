@@ -3501,13 +3501,6 @@ input, select, textarea {
 		  .inner span.image img.centerimguxlab {
 			width: 100%;
 			display: block;
-			margin-left: 5em;
-			margin-right: auto;
-		}
-
-		.inner span.image img.centerimglp {
-			width: 100%;
-			display: block;
-			margin-left: 8em;
+			margin-left: 4em;
 			margin-right: auto;
 		}
