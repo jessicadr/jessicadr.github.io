@@ -3358,7 +3358,7 @@ input, select, textarea {
 		  #header .topnav ul li a {
 			color: hsl(0, 0%, 67%);
 			text-align: center;
-			padding: 8px 8px 8px 0;
+			padding: 8px;
 			text-decoration: none;
 			font-size: 17px;
 			display: block;
