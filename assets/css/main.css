@@ -3374,12 +3374,12 @@ input, select, textarea {
 			  }	
 			  
 		/* styling about page */
-		div#main .inner h2 {
+		div#main div.inner h2 {
 			text-align: center;
 			position: relative;
 		}
 			  
-			  div#main .inner h1 {
+			  div#main div.inner h1 {
 				  text-align: center;
 				  font-size: 15px;
 			  }
