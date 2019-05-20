@@ -3350,7 +3350,7 @@ input, select, textarea {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			float: right;
+			float: left;
 			text-decoration: none;
 			color: hsl(0, 0%, 67%);
 		  }
@@ -3358,7 +3358,7 @@ input, select, textarea {
 		  #header .topnav ul li a {
 			color: hsl(0, 0%, 67%);
 			text-align: center;
-			padding: 8px;
+			padding: 8px 8px 8px 0;
 			text-decoration: none;
 			font-size: 17px;
 			display: block;
