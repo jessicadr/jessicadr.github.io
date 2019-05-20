@@ -3377,7 +3377,7 @@ input, select, textarea {
 		div#main .inner h2 {
 			text-align: center;
 			position: absolute;
-			left: 50px;
+			left: 0px;
 		}
 			  
 			  div#main .inner h1 {
