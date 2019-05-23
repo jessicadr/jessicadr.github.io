@@ -3369,15 +3369,16 @@ input, select, textarea {
 			  }	
 			  
 		/* styling about page */
+		div#main div.inner h1 a {
+			text-align: center;
+			font-size: 24px;
+			margin: 4em 0 4em 0;
+			font-size: 14px;
+			border-bottom: none;
+		  }
+
 			  div#main div.inner h1 {
 				  text-align: center;
 				  font-size: 24px;
 				  margin: 4em 0 4em 0;
-			  }
-
-			  div#main div.inner h1 a {
-				text-align: center;
-				font-size: 24px;
-				margin: 4em 0 4em 0;
-				font-size: 14px;
 			  }
