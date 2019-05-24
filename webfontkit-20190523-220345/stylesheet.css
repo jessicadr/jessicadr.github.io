@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: '4bbb8297726ec0811d06513fdc6Rg';
+    font-family: 'Calluna Sans Bold';
     src: url('callunasans-bold-webfont.woff2') format('woff2'),
          url('callunasans-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: '6bc6ed011fa0d6b1b40fcfbb62eRg';
+    font-family: 'Calluns Sans Regular';
     src: url('callunasans-regular-webfont.woff2') format('woff2'),
          url('callunasans-regular-webfont.woff') format('woff');
     font-weight: normal;
