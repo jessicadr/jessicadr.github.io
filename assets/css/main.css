@@ -2817,7 +2817,7 @@ input, select, textarea {
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
-			font-family: 'CallunaSans-Bold';
+			font-family: 'Chivo', sans-serif;
 		}
 
 			#header .logo > * {
