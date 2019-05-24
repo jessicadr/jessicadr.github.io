@@ -3374,12 +3374,12 @@ input, select, textarea {
 			margin: 2em 0 2em 0;
 			font-size: 14px;
 			border-bottom: none;
-			font-style: light;
+			font-weight: light;
 		  }
 
 			  div#main div.inner h1 {
 				  text-align: center;
 				  font-size: 28px;
-				  font-style: bold;
+				  font-weight: bold;
 				  margin: 2em 0 2em 0;
 			  }
