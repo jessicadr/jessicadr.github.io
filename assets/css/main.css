@@ -3371,7 +3371,6 @@ input, select, textarea {
 		/* styling about page */
 		div#main div.inner h1 a {
 			text-align: center;
-			font-size: 24px;
 			margin: 2em 0 2em 0;
 			font-size: 14px;
 			border-bottom: none;
@@ -3379,6 +3378,6 @@ input, select, textarea {
 
 			  div#main div.inner h1 {
 				  text-align: center;
-				  font-size: 24px;
+				  font-size: 28px;
 				  margin: 2em 0 2em 0;
 			  }
