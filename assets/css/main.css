@@ -3383,3 +3383,18 @@ input, select, textarea {
 				  font-weight: 700;
 				  margin: 2em 0 2em 0;
 			  }
+
+		/* styling journal images */
+		div.row div.column img {
+			max-width: 50%;
+			max-height: 50%;
+			float: left;
+			padding: 5px;
+		}
+		
+		div.row {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
