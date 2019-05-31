@@ -192,7 +192,7 @@ input, select, textarea {
 
 		}
 
-	h2, h3, h4, h5, h6 {
+	h2, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -209,7 +209,12 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1em;
+		font-weight: 300;
+		line-height: 0;
+		margin: 0 0 2em 0;
+		letter-spacing: 0.15em;
+		font-size: 1.0em;
+		font-family: 'Proxima Nova';
 	}
 
 	h4 {
@@ -2690,6 +2695,7 @@ input, select, textarea {
 
 			.tiles article.style2 > .image:before {
 				background-color: #EACF7F;
+				opacity: 0;
 			}
 
 			.tiles article.style3 > .image:before {
