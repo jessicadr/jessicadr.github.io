@@ -3324,6 +3324,7 @@ input, select, textarea {
 
 		  #header nav ul li a[href="#menu"] {
 			display: none;
+			margin-top: 38px;
 		  }
 
 		  @media (max-width: 736px) {
