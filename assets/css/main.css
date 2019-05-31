@@ -114,12 +114,12 @@ input, select, textarea {
 	body, input, select, textarea {
     	color: #333;
 		font-family: 'Chivo', sans-serif;
-		font-size: 14px;
+		font-size: 14pt;
 		font-weight: 50;
 		line-height: 1.42857143;
 	}
 
-		@media screen and (max-width: 2000px) {
+		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 14pt;
@@ -127,7 +127,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 2000px) {
+		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -2558,7 +2558,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.3333333333% - 2.5em);
+			width: calc(50% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -2689,7 +2689,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #EACF7F;
 			}
 
 			.tiles article.style3 > .image:before {
@@ -2753,7 +2753,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.3333333333% - 1.25em);
+					width: calc(50% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -3424,7 +3424,7 @@ input, select, textarea {
 			font-family: 'Proxima Nova', sans-serif;
 			font-weight: 400;
 			font-style: normal;
-			font-size: 15px;
+			font-size: 17px;
 			line-height: 1.7em;
 			letter-spacing: .05em;
 			text-rendering: optimizeLegibility;;
@@ -3434,7 +3434,7 @@ input, select, textarea {
 		font-family: 'Proxima Nova';
 		font-weight: 500;
 		font-style: normal;
-		font-size: 13px;
+		font-size: 15px;
 		line-height: 1.3em;
 		letter-spacing: .15em;
 		text-transform: uppercase;
