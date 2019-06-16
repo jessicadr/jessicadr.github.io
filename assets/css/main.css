@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -194,10 +193,11 @@ input, select, textarea {
 
 	h2, h4, h5, h6 {
 		font-weight: 900;
-		line-height: 1.5em;
-		margin: 0 0 1.5em 0;
+		line-height: 1.0em;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
+		font-family: 'Proxima Nova';
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -209,9 +209,9 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-weight: 10;
-		line-height: 0.5em;
-		margin: 0 0 1em 0;
+		font-weight: 100;
+		line-height: 1.0em;
+		margin: 0 0 0.5em 0;
 		letter-spacing: 0.15em;
 		font-size: 1.0em;
 		font-family: 'Proxima Nova';
@@ -3397,6 +3397,12 @@ input, select, textarea {
 				  margin: 2em 0 2em 0;
 			  }
 
+			  div#main div.inner p a {
+				border-bottom: none;
+				color: #EF9292;
+			  }
+
+
 		/* styling journal images */
 		div.row div.column img {
 			max-width: 50%;
@@ -3429,7 +3435,7 @@ input, select, textarea {
 			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 		  }
 		
-		div#main div.inner p, div#main div.inner ul, div#main div.inner ol{
+		div#main div.inner p, div#main div.inner ul, div#main div.inner ol {
 			font-family: 'Proxima Nova', sans-serif;
 			font-weight: 400;
 			font-style: normal;
@@ -3439,7 +3445,7 @@ input, select, textarea {
 			text-rendering: optimizeLegibility;
 			padding: 0 1.5em;
 		}
-
+		
 		div#main div.inner h1 a {
 		font-family: 'Proxima Nova';
 		font-weight: 500;
