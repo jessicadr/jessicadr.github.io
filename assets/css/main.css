@@ -3366,7 +3366,7 @@ input, select, textarea {
 		  #header .topnav ul li a {
 			color: hsl(0, 0%, 67%);
 			text-align: center;
-			padding: 8px;
+			padding: 8px 11px;
 			text-decoration: none;
 			font-size: 17px;
 			display: block;
@@ -3445,6 +3445,10 @@ input, select, textarea {
 			text-rendering: optimizeLegibility;
 			padding: 0 1.5em;
 		}
+
+		div#main div.inner p b {
+			font-weight: 700;
+		}
 		
 		div#main div.inner h1 a {
 		font-family: 'Proxima Nova';
@@ -3464,5 +3468,4 @@ input, select, textarea {
 			padding: 0 1.5em 1.5em 1.5em;
 			max-width: 100%;
 		}
-
 	
