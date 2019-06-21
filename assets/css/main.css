@@ -206,15 +206,17 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		margin-top: 1.3em;
 	}
 
 	h3 {
 		font-weight: 100;
 		line-height: 1.0em;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.3em 0;
 		letter-spacing: 0.15em;
 		font-size: 1.0em;
 		font-family: 'Proxima Nova';
+		padding-top: 0.5em;
 	}
 
 	h4 {
@@ -3433,9 +3435,9 @@ input, select, textarea {
 			font-weight: 400;
 			src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27omO73q3LkQ&skey=96867d716c89840e&v=v11) format('woff2');
 			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-		  }
+		}
 		
-		div#main div.inner p, div#main div.inner ul, div#main div.inner ol {
+		div#main div.inner p {
 			font-family: 'Proxima Nova', sans-serif;
 			font-weight: 400;
 			font-style: normal;
@@ -3444,6 +3446,19 @@ input, select, textarea {
 			letter-spacing: .05em;
 			text-rendering: optimizeLegibility;
 			padding: 0 1.5em;
+			margin-bottom: 0em;
+		}
+
+		div#main div.inner ul, div#main div.inner ol {
+			font-family: 'Proxima Nova', sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 17px;
+			line-height: 1.7em;
+			letter-spacing: .05em;
+			text-rendering: optimizeLegibility;
+			padding: 0 1.5em;
+			margin-bottom: 0;
 		}
 
 		div#main div.inner p b {
@@ -3451,14 +3466,14 @@ input, select, textarea {
 		}
 		
 		div#main div.inner h1 a {
-		font-family: 'Proxima Nova';
-		font-weight: 500;
-		font-style: normal;
-		font-size: 15px;
-		line-height: 1.3em;
-		letter-spacing: 0.15em;
-		text-transform: uppercase;
-		color: #333;
+			font-family: 'Proxima Nova';
+			font-weight: 500;
+			font-style: normal;
+			font-size: 15px;
+			line-height: 1.3em;
+			letter-spacing: 0.15em;
+			text-transform: uppercase;
+			color: #333;
 		}
 
 		div.content {
@@ -3468,4 +3483,7 @@ input, select, textarea {
 			padding: 0 1.5em 1.5em 1.5em;
 			max-width: 100%;
 		}
+
+		/* styling ux lab page */
+		div#main div.inner 
 	
