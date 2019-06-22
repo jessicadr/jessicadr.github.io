@@ -206,7 +206,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
-		margin-top: 1.3em;
+		margin-top: 1.8em;
 	}
 
 	h3 {
@@ -3399,7 +3399,7 @@ input, select, textarea {
 				  margin: 2em 0 2em 0;
 			  }
 
-			  div#main div.inner p a {
+			  div#main div.inner p a, div#main div.inner li a {
 				border-bottom: none;
 				color: #EF9292;
 			  }
