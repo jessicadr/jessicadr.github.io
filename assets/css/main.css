@@ -3399,7 +3399,7 @@ input, select, textarea {
 				  margin: 2em 0 2em 0;
 			  }
 
-			  div#main div.inner p a, div#main div.inner li a {
+			  div#main div.inner p a {
 				border-bottom: none;
 				color: #EF9292;
 			  }
@@ -3485,5 +3485,7 @@ input, select, textarea {
 		}
 
 		/* styling ux lab page */
-		div#main div.inner 
-	
+		div#main div.inner ol ul li a {
+			border-bottom: none;
+			color: #EF9292;
+		  }
