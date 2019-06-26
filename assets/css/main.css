@@ -2037,6 +2037,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 1em 0 0 1em;
+			color:; 
 		}
 
 /* Form */
@@ -2818,7 +2819,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2827,10 +2828,11 @@ input, select, textarea {
 			color: #333;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 0 0;
+			margin: -2em 0 0 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
+			max-width: 30%;
 		}
 
 			#header .logo > * {
@@ -2977,8 +2979,8 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
-		color: #ffffff;
+		background: #ffffff;
+		color: #000000;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3394,9 +3396,10 @@ input, select, textarea {
 
 			  div#main div.inner h1 {
 				  text-align: center;
-				  font-size: 28px;
-				  font-weight: 700;
+				  font-size: 30px;
+				  font-weight: 400;
 				  margin: 2em 0 2em 0;
+				  line-height: 2em;
 			  }
 
 			  div#main div.inner p a {
