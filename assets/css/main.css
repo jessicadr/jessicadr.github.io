@@ -196,8 +196,8 @@ input, select, textarea {
 		line-height: 1.0em;
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
-		font-family: 'Proxima Nova';
+		letter-spacing: 0.22em;
+		font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -206,14 +206,14 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
-		margin-top: 1.8em;
+		margin-top: 2.6em;
 	}
 
 	h3 {
 		font-weight: 100;
 		line-height: 1.0em;
 		margin: 0 0 0.3em 0;
-		letter-spacing: 0.15em;
+		letter-spacing: 0.10em;
 		font-size: 1.0em;
 		font-family: 'Proxima Nova';
 		padding-top: 0.5em;
