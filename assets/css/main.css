@@ -2028,6 +2028,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		text-align: center;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
