@@ -3453,7 +3453,7 @@ input, select, textarea {
 			line-height: 1.7em;
 			letter-spacing: .05em;
 			text-rendering: optimizeLegibility;
-			padding: 0 1.5em;
+			padding: 0;
 			margin-bottom: 0em;
 		}
 
