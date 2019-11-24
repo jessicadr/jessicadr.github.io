@@ -3492,8 +3492,15 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
-		/* styling ux lab page */
+		/* styling ux lab and launchpad page */
 		div#main div.inner ol ul li a {
 			border-bottom: none;
 			color: #EF9292;
 		  }
+
+		  .inner span.image img.centerimg {
+			max-width: 100%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
