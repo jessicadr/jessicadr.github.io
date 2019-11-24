@@ -3498,9 +3498,16 @@ input, select, textarea {
 			color: #EF9292;
 		  }
 
-		  .inner span.image img.centerimg {
-			max-width: 100%;
+		  .inner span.image img.centerimguxlab {
+			width: 100%;
 			display: block;
-			margin-left: auto;
+			margin-left: 5em;
+			margin-right: auto;
+		}
+
+		.inner span.image img.centerimglp {
+			width: 100%;
+			display: block;
+			margin-left: 8em;
 			margin-right: auto;
 		}
