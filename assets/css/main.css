@@ -3505,3 +3505,10 @@ input, select, textarea {
 			margin-left: 4em;
 			margin-right: auto;
 		}
+
+		/*videos */
+		video {
+			display: block;
+			width: 100%;
+			margin: 0;
+		}
