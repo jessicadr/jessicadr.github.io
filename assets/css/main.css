@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -193,12 +194,13 @@ input, select, textarea {
 
 	h2, h4, h5, h6 {
 		font-weight: 900;
-		line-height: 1.0em;
+		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.22em;
-		font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
+
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -210,16 +212,17 @@ input, select, textarea {
 	}
 
 	h3 {
+		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
 		line-height: 1.0em;
 		margin: 0 0 0.3em 0;
 		letter-spacing: 0.10em;
 		font-size: 1.0em;
-		font-family: 'Proxima Nova';
 		padding-top: 0.5em;
 	}
 
 	h4 {
+		font-family: 'Roboto', sans-serif;
 		font-size: 0.8em;
 		padding-top: 0.9em;
 	}
@@ -2661,11 +2664,10 @@ input, select, textarea {
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #FFFFFF;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
-				opacity:0;
 			}
 
 				.tiles article > a > :last-child {
@@ -2679,6 +2681,9 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
+					text-align: left;
+					padding-left: 11.8em;
+					width: 100%;
 				}
 
 				.tiles article > a .content {
@@ -2690,7 +2695,8 @@ input, select, textarea {
 					max-height: 0;
 					line-height: 1.5;
 					margin-top: 0.35em;
-					opacity: 0;
+					text-align: left;
+					padding-left: 13em;
 				}
 
 					.tiles article > a .content > :last-child {
@@ -3447,7 +3453,7 @@ input, select, textarea {
 		}
 		
 		div#main div.inner p {
-			font-family: 'Proxima Nova', sans-serif;
+			font-family: 'Proxima Nova', sans-serif, 'Roboto', sans-serif;
 			font-weight: 400;
 			font-style: normal;
 			font-size: 17px;
@@ -3459,7 +3465,7 @@ input, select, textarea {
 		}
 
 		div#main div.inner ul, div#main div.inner ol {
-			font-family: 'Proxima Nova', sans-serif;
+			font-family: 'Proxima Nova', sans-serif, 'Roboto', sans-serif;
 			font-weight: 400;
 			font-style: normal;
 			font-size: 17px;
@@ -3475,7 +3481,7 @@ input, select, textarea {
 		}
 		
 		div#main div.inner h1 a {
-			font-family: 'Proxima Nova';
+			font-family:  'Proxima Nova', 'Roboto', sans-serif;
 			font-weight: 500;
 			font-style: normal;
 			font-size: 15px;

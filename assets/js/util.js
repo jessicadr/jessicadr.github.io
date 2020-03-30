@@ -572,7 +572,7 @@
 
 						$p = $e.data(key);
 
-						// Move element back to its original location (using our placeholder).
+						// Move element back to its original location (using placeholder).
 							$e.insertAfter($p);
 
 						// Unmark element as moved.
