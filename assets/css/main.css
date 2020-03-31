@@ -179,12 +179,10 @@ input, select, textarea {
 
 			h1 {
 				font-size: 1.75em;
-				margin: 0 0 1em 0;
 			}
 
 			h2{
 				font-size: 0.5em;
-				margin-left: 0;
 			}
 
 		}
@@ -197,7 +195,6 @@ input, select, textarea {
 
 			h2{
 				font-size: 0.5em;
-				margin-left: 0;
 			}
 
 		}
@@ -262,6 +259,7 @@ input, select, textarea {
 		h3 {
 			font-size: 0.9em;
 		}
+	
 
 	}
 
@@ -2692,8 +2690,7 @@ input, select, textarea {
 				.tiles article > a h2 {
 					margin: 0;
 					text-align: left;
-					padding-left: 8.5em;
-					padding-right: 1.0em;
+					padding-left: 8.4em;
 					width: 100%;
 					font-family: 'Roboto', sans-serif;
 					font-weight: 900;
@@ -2710,8 +2707,13 @@ input, select, textarea {
 					max-height: 0;
 					line-height: 1.5;
 					margin-top: 0.35em;
+				}
+
+				.tiles article > a .content > p {
 					text-align: left;
-					padding-left: 13em;
+					margin-left: 12.4em;
+					border: 0;
+					padding: 0;
 				}
 
 					.tiles article > a .content > :last-child {
