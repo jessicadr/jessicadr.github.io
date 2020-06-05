@@ -2687,6 +2687,7 @@ input, select, textarea {
 					opacity: 1.0;
 				}
 
+				/* tile text
 				.tiles article > a h2 {
 					margin: 0;
 					text-align: left;
@@ -2697,6 +2698,7 @@ input, select, textarea {
 					font-size: 1.53em;
 
 				}
+				*/
 
 				.tiles article > a .content {
 					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2711,7 +2713,7 @@ input, select, textarea {
 
 				.tiles article > a .content > p {
 					text-align: left;
-					margin-left: 12.4em;
+					margin: 0;
 					border: 0;
 					padding: 0;
 				}
@@ -2786,33 +2788,127 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		@media screen and (max-width: 1280px) {
+
+		@media screen and (min-width: 150px) {
 
 			.tiles {
-				margin: -1.25em 0 0 -1.25em;
+				margin: 0;
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: 100%;
+					margin: 1.75em 0 0 0;
 				}
 
+				.tiles article > a > #tile-div {
+					padding-left: 138px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 4vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 2vw;
+						text-align: left;
+					}
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (min-width: 360px) {
 
 			.tiles {
-				margin: -2.5em 0 0 -2.5em;
+				margin: 0;
 			}
 
 				.tiles article {
-					width: calc(50% - 2.5em);
-					margin: 2.5em 0 0 2.5em;
+					width: 100%;
+					margin: 1.75em 0 0 0;
 				}
 
+				.tiles article > a > #tile-div {
+					padding-left: 138px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 4vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 2vw;
+						text-align: left;
+					}
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 400px) {
+
+			.tiles {
+				margin: 0;
+			}
+
+				.tiles article {
+					width: 100%;
+					margin: 1.3em 0 0 0;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 160px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 4vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 2vw;
+						text-align: left;
+					}
+		}
+
+		@media screen and (min-width: 600px) {
+
+			.tiles {
+				margin: 0;
+			}
+
+				.tiles article {
+					width: 100%;
+					margin: 1.3em 0 0 0;
+				}
+
+					.tiles article:hover > .image {
+						-moz-transform: scale(1.0);
+						-webkit-transform: scale(1.0);
+						-ms-transform: scale(1.0);
+						transform: scale(1.0);
+					}
+
+				.tiles article > a > #tile-div {
+					padding-left: 240px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 3.5vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 2vw;
+						text-align: left;
+					}
+		}
+
+		@media screen and (min-width: 736px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
@@ -2830,18 +2926,190 @@ input, select, textarea {
 						transform: scale(1.0);
 					}
 
+				.tiles article > a > #tile-div {
+						padding-left: 140px;
+						width: auto;
+					}
+
+						.tiles article > a > #tile-div > #tile-h2 {
+							font-size: 2vw;
+							text-align: left;
+							width: auto;
+						}
+
+						.tiles article > a > #tile-div > #tile-p {
+							font-size: 1.2vw;
+							text-align: left;
+						}
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (min-width: 980px) {
 
 			.tiles {
-				margin: 0;
+				margin: -2.5em 0 0 -2.5em;
 			}
 
 				.tiles article {
-					width: 100%;
-					margin: 1.25em 0 0 0;
+					width: calc(50% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
 				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 175px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 2vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 1vw;
+						text-align: left;
+					}
+
+		@media screen and (min-width: 1024px) {
+
+			.tiles {
+				margin: -2.5em 0 0 -2.5em;
+			}
+
+				.tiles article {
+					width: calc(50% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 220px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 2vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 1vw;
+						text-align: left;
+					}
+
+		@media screen and (min-width: 1280px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 210px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 1.8vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 1vw;
+						text-align: left;
+					}
+		}
+
+		}
+
+		@media screen and (min-width: 1440px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 260px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 1.8vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 1vw;
+						text-align: left;
+					}
+		}
+
+		@media screen and (min-width: 1920px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 260px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 1.5vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 0.8vw;
+						text-align: left;
+					}
+		}
+
+		@media screen and (min-width: 2560px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 260px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 1vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 0.6vw;
+						text-align: left;
+					}
+		}
 
 		}
 
