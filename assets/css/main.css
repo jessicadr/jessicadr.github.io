@@ -221,7 +221,7 @@ input, select, textarea {
 	h3 {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
-		line-height: 1.0em;
+		line-height: 1.4em;
 		margin: 0 0 0.3em 0;
 		letter-spacing: 0.10em;
 		font-size: 1.0em;
@@ -2055,7 +2055,8 @@ input, select, textarea {
 			ul.icons li a[href] {
 				color: #F19D9D;
 				border-color: #F19D9D;
-			}	
+			}
+				
 
 /* Form */
 
@@ -3791,6 +3792,11 @@ input, select, textarea {
 
 		/* styling ux lab and launchpad page */
 		div#main div.inner ol ul li a {
+			border-bottom: none;
+			color: #EF9292;
+		  }
+		
+		div#main div.inner ul li a.list-link {
 			border-bottom: none;
 			color: #EF9292;
 		  }
