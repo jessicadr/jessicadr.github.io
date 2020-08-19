@@ -2688,7 +2688,7 @@ input, select, textarea {
 					opacity: 1.0;
 				}
 
-				/* tile text
+				/*
 				.tiles article > a h2 {
 					margin: 0;
 					text-align: left;
@@ -2697,7 +2697,6 @@ input, select, textarea {
 					font-family: 'Roboto', sans-serif;
 					font-weight: 900;
 					font-size: 1.53em;
-
 				}
 				*/
 
@@ -2709,7 +2708,7 @@ input, select, textarea {
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
-					margin-top: 0.35em;
+					margin-top: -10em;
 				}
 
 				.tiles article > a .content > p {
@@ -2768,7 +2767,7 @@ input, select, textarea {
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
-				max-height: 15em;
+				max-height: 0em;
 				opacity: 1;
 			}
 
