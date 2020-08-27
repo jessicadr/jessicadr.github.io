@@ -213,6 +213,10 @@ input, select, textarea {
 			color: inherit;
 		}
 
+		h2 a {
+			letter-spacing: 0.1em;
+		}
+
 	h2 {
 		font-size: 1.1em;
 		margin-top: 2.6em;
