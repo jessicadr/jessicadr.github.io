@@ -2807,6 +2807,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 138px;
 					width: auto;
+					padding-top: 10em;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
@@ -2988,6 +2989,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 220px;
 					width: auto;
+					padding-top: 6em;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
@@ -3013,7 +3015,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a > #tile-div {
-					padding-left: 210px;
+					padding-left: 14em;
 					width: auto;
 				}
 
