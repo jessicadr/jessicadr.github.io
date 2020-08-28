@@ -2989,7 +2989,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 220px;
 					width: auto;
-					padding-top: 6em;
+					padding-bottom: 12em;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
