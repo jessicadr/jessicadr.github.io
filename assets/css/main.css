@@ -175,6 +175,7 @@ input, select, textarea {
 			color: #333;
 		}
 
+
 		@media screen and (max-width: 736px) {
 
 			h1 {
@@ -2048,7 +2049,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		margin: -1em 0 2em -1em;
+		margin: -2em auto 2em auto;
+		padding-bottom: 4em;
 	}
 
 		ul.icons li {
@@ -2360,7 +2362,9 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 2rem;
 			width: 100%;
 		}
 
@@ -2579,7 +2583,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		position: relative;
-		margin: -2.5em 0 0 -2.5em;
+		margin: 0 0 0 -2.5em;
 	}
 
 		.tiles article {
@@ -3822,5 +3826,20 @@ input, select, textarea {
 			margin: 0;
 			width: 80vw;
 		}
+
+		/*changing content container width*/
+		h2, h3, h4, h5, h6, p, ol, ul {
+			max-width: 55rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.row, span.image, span.imagemain {
+			max-width: 65rem;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+
 
 		
