@@ -2055,7 +2055,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 1em 0 1em 1em;
+			padding: 1em 0 3em 1em;
 		}
 
 			ul.icons li a[href] {
@@ -2811,7 +2811,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 138px;
 					width: auto;
-					padding-top: 10em;
+					margin-top: -4em;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
