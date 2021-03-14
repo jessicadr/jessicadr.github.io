@@ -2717,7 +2717,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #000000 !important;
+					color: #000000;
 					opacity: 1.0;
 				}
 
