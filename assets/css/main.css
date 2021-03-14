@@ -25,34 +25,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-h1, h2 {
-	color: #EF9292;
-}
-
-h2 {
-	text-transform: uppercase;
-}
-
 h3, h4, h5, h6{
-	color: #EF9292;
+	color: #7590EE;
 	text-transform: uppercase;
 }
 
 h4 {
 	color: #2D4EC2;
-}
-
-li h3 {
-	color: #757575;
 	text-transform: capitalize;
 }
 
-#tile-h2 {
-	color: #FFFFFF;
-}
 
 p b {
-	color: #EF9292;
+	color: #7590EE;
 }
 
 body {
@@ -230,12 +215,21 @@ input, select, textarea {
 
 		}
 
-	h2, h4, h5, h6 {
+	h2, h5, h6 {
 		font-weight: 900;
 		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.22em;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	h4 {
+		font-weight: 900;
+		line-height: 1.2em;
+		margin: 0 0 0.5em 0;
+		text-transform: capitalize;
+		letter-spacing: 0.1em;
 		font-family: 'Roboto', sans-serif;
 	}
 
@@ -266,7 +260,7 @@ input, select, textarea {
 
 	h4 {
 		font-family: 'Roboto', sans-serif;
-		font-size: 0.8em;
+		font-size: 1.0em;
 		padding-top: 0.9em;
 	}
 
@@ -3741,8 +3735,8 @@ input, select, textarea {
 			  }
 
 			  div#main div.inner p a {
-				border-bottom: dashed 1px #2D4EC2;
-				color: #2D4EC2;
+				border-bottom: dashed 1px #2846AD;
+				color: #2846AD;
 			  }
 
 
