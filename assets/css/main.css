@@ -25,6 +25,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+h1, h2 {
+	color: #EF9292;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h3, h4, h5, h6{
+	color: #EF9292;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #2D4EC2;
+}
+
+li h3 {
+	color: #757575;
+	text-transform: capitalize;
+}
+
+#tile-h2 {
+	color: #FFFFFF;
+}
+
+p b {
+	color: #EF9292;
+}
+
 body {
 	line-height: 1;
 }
@@ -219,14 +249,15 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.2em;
 		margin-top: 2.6em;
+	
 	}
 
 	h3 {
 		font-family: 'Roboto', sans-serif;
-		font-weight: 100;
-		line-height: 1.4em;
+		font-weight: 800;
+		line-height: 2.0em;
 		margin: 0 0 0.3em 0;
 		letter-spacing: 0.10em;
 		font-size: 1.0em;
@@ -3710,8 +3741,8 @@ input, select, textarea {
 			  }
 
 			  div#main div.inner p a {
-				border-bottom: none;
-				color: #EF9292;
+				border-bottom: dashed 1px #2D4EC2;
+				color: #2D4EC2;
 			  }
 
 
@@ -3807,13 +3838,13 @@ input, select, textarea {
 		
 		div#main div.inner ul li a.list-link {
 			border-bottom: none;
-			color: #EF9292;
+			color: #2D4EC2;
 		  }
 
 		  .inner span.image img.centerimguxlab {
-			width: 100%;
+			max-width: 100%;
 			display: block;
-			margin-left: 4em;
+			margin-left: auto;
 			margin-right: auto;
 		}
 
