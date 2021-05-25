@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
@@ -26,18 +27,18 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 h3, h4, h5, h6{
-	color: #7590EE;
+	color: #222222;
 	text-transform: uppercase;
 }
 
 h4 {
-	color: #2D4EC2;
+	color: #222222;
 	text-transform: capitalize;
 }
 
 
 p b {
-	color: #7590EE;
+	color: #222222;
 }
 
 body {
@@ -128,7 +129,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
     	color: #333;
-		font-family: 'Chivo', sans-serif;
+		font-family: 'Karla','Chivo', sans-serif;
 		font-size: 1rem;
 		font-weight: 50;
 		line-height: 1.42857143;
@@ -216,21 +217,21 @@ input, select, textarea {
 		}
 
 	h2, h5, h6 {
-		font-weight: 900;
+		font-weight: 600;
 		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.22em;
-		font-family: 'Roboto', sans-serif;
+		letter-spacing: 0.1em;
+		font-family: 'Karla', 'Roboto', sans-serif;
 	}
 
 	h4 {
-		font-weight: 900;
+		font-weight: 700;
 		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
 		text-transform: capitalize;
 		letter-spacing: 0.1em;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Karla','Roboto', sans-serif;
 	}
 
 
@@ -243,13 +244,14 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.2em;
-		margin-top: 2.6em;
+		font-weight: 500;
+		font-size: 1.5em;
+		margin-top: 2em;
 	}
 
 	h3 {
-		font-family: 'Roboto', sans-serif;
-		font-weight: 800;
+		font-family: 'Karla', 'Roboto', sans-serif;
+		font-weight: 700;
 		line-height: 2.0em;
 		margin: 0 0 0.3em 0;
 		letter-spacing: 0.10em;
@@ -258,7 +260,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Karla','Roboto', sans-serif;
 		font-size: 1.0em;
 		padding-top: 0.9em;
 	}
@@ -3800,24 +3802,24 @@ input, select, textarea {
 		}
 		
 		div#main div.inner p {
-			font-family: 'Proxima Nova', sans-serif, 'Roboto', sans-serif;
+			font-family: 'Karla','Proxima Nova', sans-serif, 'Roboto', sans-serif;
 			font-weight: 400;
 			font-style: normal;
 			font-size: 17px;
 			line-height: 1.7em;
-			letter-spacing: .05em;
+			letter-spacing: .03em;
 			text-rendering: optimizeLegibility;
 			padding: 0;
 			margin-bottom: 0em;
 		}
 
 		div#main div.inner ul, div#main div.inner ol {
-			font-family: 'Proxima Nova', sans-serif, 'Roboto', sans-serif;
+			font-family: 'Karla','Proxima Nova', sans-serif, 'Roboto', sans-serif;
 			font-weight: 400;
 			font-style: normal;
 			font-size: 17px;
 			line-height: 1.7em;
-			letter-spacing: .05em;
+			letter-spacing: .03em;
 			text-rendering: optimizeLegibility;
 			padding: 0 1.5em;
 			margin-bottom: 0;
@@ -3828,7 +3830,7 @@ input, select, textarea {
 		}
 		
 		div#main div.inner h1 a {
-			font-family:  'Proxima Nova', 'Roboto', sans-serif;
+			font-family:  'Karla', 'Proxima Nova', 'Roboto', sans-serif;
 			font-weight: 500;
 			font-style: normal;
 			font-size: 15px;
@@ -3859,7 +3861,7 @@ input, select, textarea {
 		
 		div#main div.inner ul li a.list-link {
 			border-bottom: none;
-			color: #2D4EC2;
+			color: #486FEC;
 		  }
 
 		  .inner span.image img.centerimguxlab {
