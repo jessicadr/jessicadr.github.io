@@ -3759,21 +3759,27 @@ input, select, textarea {
 			  }	
 			  
 		/* styling about page */
-		div#main div.inner h1 a {
-			text-align: center;
-			margin: 1em 0 1em 0;
-			font-size: 2rem;
-			border-bottom: none;
-			font-weight: 400;
-		  }
-
 			  div#main div.inner h1 {
 				  text-align: center;
 				  font-size: 2rem;
 				  font-weight: 400;
-				  margin: 0.75em 0 0.75em 0;
+				  margin: 1.5em 0 1.5em 0;
 				  line-height: 2em;
 			  }
+
+			  div#main div.inner h1 a {
+				font-family:  'Karla', 'Proxima Nova', 'Roboto', sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				font-size: 1.125rem;
+				line-height: 1.3em;
+				letter-spacing: 0.15em;
+				text-transform: uppercase;
+				color: #333;
+				margin: 1rem 0;
+				text-align: center;
+				border-bottom: none;
+			}
 
 			  div#main div.inner p a {
 				border-bottom: dashed 1px #2846AD;
@@ -3841,16 +3847,7 @@ input, select, textarea {
 			font-weight: 700;
 		}
 		
-		div#main div.inner h1 a {
-			font-family:  'Karla', 'Proxima Nova', 'Roboto', sans-serif;
-			font-weight: 500;
-			font-style: normal;
-			font-size: 1.125rem;
-			line-height: 1.3em;
-			letter-spacing: 0.15em;
-			text-transform: uppercase;
-			color: #333;
-		}
+		
 
 		div.content {
 			content: "";
