@@ -3375,11 +3375,18 @@ input, select, textarea {
 				}
 
 					#menu > .inner > ul > li a {
+						font-family: 'Karla','Proxima Nova', sans-serif, 'Roboto', sans-serif;
+						font-weight: 400;
+						font-style: normal;
 						display: block;
 						padding: 1em 0;
 						line-height: 1.5;
 						border: 0;
-						color: inherit;
+						color: hsl(0, 0%, 67%);
+					}
+
+					#menu > .inner > ul > li a.active {
+						color: #333;
 					}
 
 					#menu > .inner > ul > li:first-child {
@@ -3729,19 +3736,24 @@ input, select, textarea {
 		  }
 
 		  #header .topnav ul li a {
+			font-family: 'Karla','Proxima Nova', sans-serif, 'Roboto', sans-serif;
+			font-weight: 400;
+			font-style: normal;
 			color: hsl(0, 0%, 67%);
 			text-align: center;
 			padding: 8px 13px;
 			text-decoration: none;
-			font-size: 17px;
 			display: block;
 			list-style-type: none;
-			font-size: 15px;
+			font-size: 1rem;
 			border-bottom: none;
 		  }
 
 		  /* Add a color to the active/current link in top nav bar */
 			#header .topnav ul li a.active {
+				font-family: 'Karla','Proxima Nova', sans-serif, 'Roboto', sans-serif;
+				font-weight: 400;
+				font-style: normal;
 				color: #333;
 				text-decoration: none;
 			  }	
@@ -3749,17 +3761,17 @@ input, select, textarea {
 		/* styling about page */
 		div#main div.inner h1 a {
 			text-align: center;
-			margin: 2em 0 2em 0;
-			font-size: 14px;
+			margin: 1em 0 1em 0;
+			font-size: 2rem;
 			border-bottom: none;
-			font-weight: 300;
+			font-weight: 400;
 		  }
 
 			  div#main div.inner h1 {
 				  text-align: center;
-				  font-size: 30px;
+				  font-size: 2rem;
 				  font-weight: 400;
-				  margin: 2em 0 2em 0;
+				  margin: 0.75em 0 0.75em 0;
 				  line-height: 2em;
 			  }
 
@@ -3833,7 +3845,7 @@ input, select, textarea {
 			font-family:  'Karla', 'Proxima Nova', 'Roboto', sans-serif;
 			font-weight: 500;
 			font-style: normal;
-			font-size: 15px;
+			font-size: 1.125rem;
 			line-height: 1.3em;
 			letter-spacing: 0.15em;
 			text-transform: uppercase;
