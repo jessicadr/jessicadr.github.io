@@ -3091,7 +3091,7 @@ input, select, textarea {
 					}
 		}
 
-		@media screen and (min-width: 1700px) {
+		@media screen and (min-width: 1600px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
@@ -3137,6 +3137,34 @@ input, select, textarea {
 
 					.tiles article > a > #tile-div > #tile-h2 {
 						font-size: 1.5vw;
+						text-align: left;
+						width: auto;
+					}
+
+					.tiles article > a > #tile-div > #tile-p {
+						font-size: 0.8vw;
+						text-align: left;
+					}
+		}
+
+		@media screen and (min-width: 2100px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
+				}
+
+				.tiles article > a > #tile-div {
+					padding-left: 220px;
+					width: auto;
+				}
+
+					.tiles article > a > #tile-div > #tile-h2 {
+						font-size: 1.2vw;
 						text-align: left;
 						width: auto;
 					}
