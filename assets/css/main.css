@@ -28,12 +28,10 @@ footer, header, hgroup, menu, nav, section {
 
 h3, h4, h5, h6{
 	color: #333;
-	text-transform: capitalize;
 }
 
 h4 {
 	color: #333;
-	text-transform: capitalize;
 }
 
 
@@ -227,11 +225,10 @@ input, select, textarea {
 
 	h2 {
 		line-height: 1.2em;
-		font-weight: 400;
+		font-weight: 500;
 		font-size: 1.5em;
 		margin-top: 2em;
-		text-transform: capitalize;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.05em;
 		font-family: 'Karla', 'Roboto', sans-serif;
 	}
 
@@ -249,7 +246,6 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
-		text-transform: capitalize;
 		letter-spacing: 0.1em;
 		font-family: 'Karla','Roboto', sans-serif;
 		font-size: 1.0em;
@@ -260,7 +256,6 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.2em;
 		margin: 0 0 0.5em 0;
-		text-transform: capitalize;
 		letter-spacing: 0.1em;
 		font-family: 'Karla', 'Roboto', sans-serif;
 		font-size: 0.8rem;
