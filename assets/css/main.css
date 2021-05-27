@@ -3130,7 +3130,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 220px;
 					width: auto;
-					margin-top: 5rem;
+					margin-top: 0rem;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
