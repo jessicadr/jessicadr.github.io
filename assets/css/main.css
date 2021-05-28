@@ -2911,8 +2911,9 @@ input, select, textarea {
 				}
 
 				.tiles article > a > #tile-div {
-					padding-left: 11em;
+					padding-left: 13rem;
 					width: auto;
+					margin-top: 0rem;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
@@ -2981,8 +2982,9 @@ input, select, textarea {
 					}
 
 				.tiles article > a > #tile-div {
-						padding-left: 140px;
+						padding-left: 9.5rem;
 						width: auto;
+						margin-top: 0rem;
 					}
 
 						.tiles article > a > #tile-div > #tile-h2 {
@@ -3044,7 +3046,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a > #tile-div {
-					padding-left: 175px;
+					padding-left: 12rem;
 					width: auto;
 				}
 
@@ -3055,7 +3057,7 @@ input, select, textarea {
 					}
 
 					.tiles article > a > #tile-div > #tile-p {
-						font-size: 1vw;
+						font-size: 1.5vw;
 						text-align: left;
 					}
 
@@ -3071,8 +3073,9 @@ input, select, textarea {
 				}
 
 				.tiles article > a > #tile-div {
-					padding-left: 220px;
+					padding-left: 12.5rem;
 					width: auto;
+					margin-top: -5rem;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
@@ -3098,8 +3101,9 @@ input, select, textarea {
 				}
 
 				.tiles article > a > #tile-div {
-					padding-left: 12em;
+					padding-left: 14em;
 					width: auto;
+					margin-top: -1rem;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
@@ -3109,7 +3113,7 @@ input, select, textarea {
 					}
 
 					.tiles article > a > #tile-div > #tile-p {
-						font-size: 1vw;
+						font-size: 1.2vw;
 						text-align: left;
 					}
 		}
@@ -3130,7 +3134,7 @@ input, select, textarea {
 				.tiles article > a > #tile-div {
 					padding-left: 220px;
 					width: auto;
-					margin-top: 0rem;
+					margin-top: -1rem;
 				}
 
 					.tiles article > a > #tile-div > #tile-h2 {
