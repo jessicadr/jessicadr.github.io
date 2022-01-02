@@ -2167,6 +2167,11 @@ ul.icons li a[href] {
   border-color: #486fec;
 }
 
+ul li a[href] {
+  border-bottom: solid 1px #2846ad;
+  color: #2846ad;
+}
+
 /* Form */
 
 form {
